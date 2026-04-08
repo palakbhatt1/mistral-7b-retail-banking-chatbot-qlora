@@ -3,6 +3,10 @@
 ## Overview
 This project focuses on adapting a general-purpose LLM (Mistral-7B) to a domain-specific task — retail banking customer support. The model is fine-tuned to generate structured and relevant responses to banking queries.
 
+## Model Deployment
+The fine-tuned model is hosted on Hugging Face:
+https://huggingface.co/iamnotpalak/mistral-qlora-banking
+
 ## Problem
 Pretrained LLMs often produce generic responses that lack domain-specific accuracy. This project improves response quality by fine-tuning on a curated banking dataset.
 
