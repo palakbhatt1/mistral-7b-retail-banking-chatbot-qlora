@@ -11,13 +11,13 @@ Pretrained LLMs often produce generic responses that lack domain-specific accura
 - Fine-tuning: QLoRA (PEFT)  
 - Quantization: 4-bit (BitsAndBytes)  
 - Dataset: Bitext Retail Banking (1000 samples)  
-- Training: 1 epoch, batch size 1, gradient accumulation  
+- Training: 2 epoch, batch size 1, gradient accumulation  
 
 ## Results
 | Metric | Score |
 |--------|------|
-| ROUGE-1 | 0.4737 |
-| ROUGE-L | 0.3452 |
+| ROUGE-1 | 0.4715 |
+| ROUGE-L | 0.3438 |
 | BLEU | 0.1182 |
 | Task Accuracy | 80% |
 
@@ -38,7 +38,6 @@ I haven't received my refund yet, what should I do?
 
 ## Limitations
 - Small dataset (1000 samples)  
-- Single epoch training  
 - Limited generalization for edge cases   
 
 ## Tech Stack
